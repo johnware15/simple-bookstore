@@ -42,6 +42,8 @@ Many of the seemingly fancy apps on the web have functionality that can be reduc
 - [ ] Removing that 2am rant-post from Facebook? That's a delete operation.
 - [ ] Like the steel frame of a skyscraper, CRUD is the skeleton around which web applications are built: it's not very sexy, but you have to know how to do it.
 - [ ] In this goal, you'll be applying the CRUD pattern to the real-world system of a bookstore.
+
+
 *Note: PUT/PATCH and DELETE requests can be a little difficult to work with, because there is not a lot of HTML support for them. If you haven't used these request types before, you should do some reading and research. Start with these SO questions: using PUT in HTML form and PUT vs POST in REST.
 
 
