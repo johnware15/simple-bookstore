@@ -1,5 +1,7 @@
 # Simple Book Store
 
+
+
 ## Skills
 
 - [ ] Can build a RESTful API using Express
@@ -7,6 +9,7 @@
 - [ ] Can use the fetch API to make HTTP requests
 - [ ] Can write end-to-end tests for an existing HTTP API using the chai-http library
 - [ ] Challenge Rubric
+
 
 ## This goal will likely be within your ZPD if you...
 - [ ] Can build basic websites with HTML & CSS
@@ -16,6 +19,7 @@
 - [ ] Are interested in building full-stack web applications with frameworks like Express
 - [ ] Are interested in learning CRUD (Create, Read, Update, Delete) relational database interactions
 - [ ] Are interested in server-side templating with tools like Pug or EJS
+
 
 ## Description
 
@@ -30,6 +34,7 @@ To implement this system, you'll need to use (among other things)...
 - [ ] Also, don't spend too much time coming up with book data if you need some seed data to work with. Use a fake data generator like Faker or just borrow a list from a data store like this CSV.
 Context
 
+
 Many of the seemingly fancy apps on the web have functionality that can be reduced to just 4 simple operations: Create, Read, Update, and Delete (or CRUD for short). At their core, they are really just ways to perform these operations on some resource.
 - [ ] Writing a new tweet on Twitter? That's a create operation.
 - [ ] Searching for photos tagged with #kittenmittens on Instagram? That's a read operation.
@@ -39,7 +44,10 @@ Many of the seemingly fancy apps on the web have functionality that can be reduc
 - [ ] In this goal, you'll be applying the CRUD pattern to the real-world system of a bookstore.
 *Note: PUT/PATCH and DELETE requests can be a little difficult to work with, because there is not a lot of HTML support for them. If you haven't used these request types before, you should do some reading and research. Start with these SO questions: using PUT in HTML form and PUT vs POST in REST.
 
+
+
 # Specifications
+
 
 ## General
 
@@ -54,6 +62,7 @@ Many of the seemingly fancy apps on the web have functionality that can be reduc
 - [ ] Code is well tested and all tests are passing.
 - [ ] The artifact produced is properly licensed, preferably with the MIT license.
 
+
 ## Stories
 
 - [ ] Books have a title, author, and genre
@@ -67,6 +76,7 @@ Many of the seemingly fancy apps on the web have functionality that can be reduc
 - [ ] Book detail view is linked to from the listing and search pages
 - [ ] Search results are presented in a new page
 
+
 ## HTTP Verbs
 
 Appropriate HTTP verbs are used for CRUD actions (for reference, follow the guidelines explained in this article)
@@ -74,6 +84,7 @@ Appropriate HTTP verbs are used for CRUD actions (for reference, follow the guid
 - [ ] POST requests are only used for create actions
 - [ ] PUT or PATCH requests are only used for update actions
 - [ ] DELETE requests are only used for delete actions
+
 
 ## Stretch
 
@@ -86,6 +97,7 @@ App is deployed and live on the web (consider using Heroku)
 - [ ] Users with role admin can perform all actions (create, read, update, delete) with books
 - [ ] Books have a price, cover image, publisher, and ISBN number
 
+
 ## Resources
 
 Guides and tutorials
@@ -95,6 +107,7 @@ Guides and tutorials
 - [ ] PostgreSQL and NodeJS
 - [ ] Building a Simple CRUD Application with Express and MongoDB - uses MongoDB instead of PostgreSQL, but the rest of it is still useful
 - [ ] Using RESTful URLs and Actions
+
 
 ## Tools and libraries
 - [ ] SQL modeling designer: http://ondras.zarovi.cz/sql/demo/
