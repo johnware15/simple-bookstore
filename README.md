@@ -1,6 +1,6 @@
-## Simple Book Store
+# Simple Book Store
 
-# Skills
+## Skills
 
 - [ ] Can build a RESTful API using Express
 - [ ] Can build a SQL schema for a given problem definition
@@ -8,7 +8,7 @@
 - [ ] Can write end-to-end tests for an existing HTTP API using the chai-http library
 - [ ] Challenge Rubric
 
-# This goal will likely be within your ZPD if you...
+## This goal will likely be within your ZPD if you...
 - [ ] Can build basic websites with HTML & CSS
 - [ ] Can add behavior to a website with JavaScript
 - [ ] Are familiar with SQL and relational databases like PostgreSQL
@@ -17,7 +17,7 @@
 - [ ] Are interested in learning CRUD (Create, Read, Update, Delete) relational database interactions
 - [ ] Are interested in server-side templating with tools like Pug or EJS
 
-# Description
+## Description
 
 You've been tasked with building a web app for a local bookstore to help them manage their inventory.
 Create a simple content management system that allows users to view, add, delete, and update books. Books entered in the system can be viewed in a list, as a single entry on its own page, or searched for using basic searches (by title, author, or genre).
@@ -41,7 +41,7 @@ Many of the seemingly fancy apps on the web have functionality that can be reduc
 
 # Specifications
 
-# General
+## General
 
 - [ ] All views are rendered on the server using server-side templates written with Pug or EJS
 - [ ] Web server can be started with the command npm start
@@ -54,7 +54,7 @@ Many of the seemingly fancy apps on the web have functionality that can be reduc
 - [ ] Code is well tested and all tests are passing.
 - [ ] The artifact produced is properly licensed, preferably with the MIT license.
 
-# Stories
+## Stories
 
 - [ ] Books have a title, author, and genre
 - [ ] Users can add books into the bookstore system via an admin page (create)
@@ -67,7 +67,7 @@ Many of the seemingly fancy apps on the web have functionality that can be reduc
 - [ ] Book detail view is linked to from the listing and search pages
 - [ ] Search results are presented in a new page
 
-# HTTP Verbs
+## HTTP Verbs
 
 Appropriate HTTP verbs are used for CRUD actions (for reference, follow the guidelines explained in this article)
 - [ ] GET requests are only used for read actions
@@ -75,7 +75,7 @@ Appropriate HTTP verbs are used for CRUD actions (for reference, follow the guid
 - [ ] PUT or PATCH requests are only used for update actions
 - [ ] DELETE requests are only used for delete actions
 
-# Stretch
+## Stretch
 
 App is deployed and live on the web (consider using Heroku)
 - [ ] All source code is written with ES6
@@ -86,7 +86,7 @@ App is deployed and live on the web (consider using Heroku)
 - [ ] Users with role admin can perform all actions (create, read, update, delete) with books
 - [ ] Books have a price, cover image, publisher, and ISBN number
 
-# Resources
+## Resources
 
 Guides and tutorials
 - [ ] Getting started and Guide sections of Express.js site
@@ -96,7 +96,7 @@ Guides and tutorials
 - [ ] Building a Simple CRUD Application with Express and MongoDB - uses MongoDB instead of PostgreSQL, but the rest of it is still useful
 - [ ] Using RESTful URLs and Actions
 
-# Tools and libraries
+## Tools and libraries
 - [ ] SQL modeling designer: http://ondras.zarovi.cz/sql/demo/
 - [ ] Express as a lightweight web server framework
 - [ ] PostgreSQL for data persistence
