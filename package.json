@@ -1,0 +1,35 @@
+{
+  "name": "simple-bookstore",
+  "version": "1.0.0",
+  "description": "This project is based upon the Learners Guild goal to create a simple book store.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnware15/simple-bookstore.git"
+  },
+  "author": "johnware15",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnware15/simple-bookstore/issues"
+  },
+  "homepage": "https://github.com/johnware15/simple-bookstore#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.14.1"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "method-override": "^2.3.10",
+    "pg-promise": "^7.3.2"
+  }
+}
