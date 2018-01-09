@@ -4,7 +4,13 @@
   "description": "This project is based upon the Learners Guild goal to create a simple book store.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "db:init": "dropdb bookstore; createdb bookstore; psql bookstore < ./schema.sql; psql bookstore < ./load-data.sql",
+    "seedData": "psql bookstore < ./load-data.sql",
+    "createdb": "createdb bookstore",
+    "dropdb": "dropdb bookstore",
+    "createtables": "psql bookstore < ./schema.sql",
+    "dbreset": "npm run createtables && npm run seedData"
   },
   "repository": {
     "type": "git",
