@@ -15,7 +15,6 @@ CREATE TABLE books (
   title VARCHAR(250) UNIQUE NOT NULL,
   author_id INTEGER REFERENCES authors(id),
   genre_id INTEGER REFERENCES genres(id),
-  synopsis VARCHAR(1000) NOT NULL,
   image VARCHAR(1000) NOT NULL
 );
 
