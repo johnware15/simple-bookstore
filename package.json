@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "db:init": "dropdb bookstore; createdb bookstore; psql bookstore < ./schema.sql; psql bookstore < ./load-data.sql",
-    "seedData": "psql bookstore < ./load-data.sql",
+    "db:init": "dropdb bookstore; createdb bookstore; psql bookstore < ./src/model/db/schema/schema.sql; psql bookstore < ./src/model/db/schema/load-data.sql",
+    "seedData": "psql bookstore < ./src/model/db/schema/load-data.sql",
     "createdb": "createdb bookstore",
     "dropdb": "dropdb bookstore",
-    "createtables": "psql bookstore < ./schema.sql",
+    "createtables": "psql bookstore < ./src/model/db/schema/schema.sql",
     "dbreset": "npm run createtables && npm run seedData"
   },
   "repository": {
