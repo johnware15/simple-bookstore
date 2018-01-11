@@ -2,8 +2,9 @@
   "name": "simple-bookstore",
   "version": "1.0.0",
   "description": "This project is based upon the Learners Guild goal to create a simple book store.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "nodemon src/server.js --exec babel-node --preset env",
     "test": "test",
     "db:init": "dropdb bookstore; createdb bookstore; psql bookstore < ./src/model/db/schema/schema.sql; psql bookstore < ./src/model/db/schema/load-data.sql",
     "seedData": "psql bookstore < ./src/model/db/schema/load-data.sql",
@@ -23,6 +24,8 @@
   },
   "homepage": "https://github.com/johnware15/simple-bookstore#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "chai": "^4.1.2",
     "chai-http": "^3.0.0",
     "mocha": "^4.0.1",
