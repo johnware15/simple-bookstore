@@ -1,3 +1,4 @@
+'use strict'
 import express from 'express'
 import session from 'express-session'
 import bodyParser from 'body-parser'
@@ -5,8 +6,8 @@ import pgp from 'pg-promise'
 import methodOverride from 'method-override'
 
 const app = express()
-const routes = require('./controller/routes');
-const db = require('./model/db');
+// const routes = require('./src/controller/routes');
+// const db = require('./model/db');
 const port = process.env.PORT || 3000
 
 app.set('view engine', 'html')
@@ -23,5 +24,7 @@ app.use(methodOverride('method'))
 app.use(bodyParser.urlencoded({ extended: true }))
 
 app.use(bodyParser.json())
+
+// app.use(routes)
 
 module.exports = app
