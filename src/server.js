@@ -5,6 +5,8 @@ import bodyParser from 'body-parser'
 import pgp from 'pg-promise'
 import methodOverride from 'method-override'
 
+import logInRoute from '../src/controller/routes/logInRoute.js'
+import signUpRoute from '../src/controller/routes/signUpRoute.js'
 const app = express()
 // const routes = require('./src/controller/routes');
 // const db = require('./model/db');
@@ -25,6 +27,9 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 app.use(bodyParser.json())
 
-// app.use(routes)
+app.use(signUpRoute)
+
+app.use(logInRoute)
+
 
 module.exports = app
