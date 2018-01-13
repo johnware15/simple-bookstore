@@ -1,4 +1,4 @@
-import logIn from '../../model/db/db/signUp.js'
+import signUp from '../../model/db/db/signUp.js'
 import express from 'express'
 
 const app = express()
